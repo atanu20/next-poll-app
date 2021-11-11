@@ -165,7 +165,7 @@ export default function Home({ allpolls }) {
                 <>
                   <div className="row">
                     {
-                      user && <h4> <b>Welcome <span style={{ color: '#A05' }}>{user}</span></b> </h4>
+                      user && <h4 className="pl-3"> <b>Welcome <span style={{ color: '#A05' }}>{user}</span></b> </h4>
                     }
 
 
